@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-08T12:45:02.445Z",
+        "line": 4,
+        "name": "Multiple Forms Entry Validation",
+        "description": "",
+        "id": "validate-registration-form-for-multiple-users;multiple-forms-entry-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5627396500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user opens the browser",
+            "match": {
+              "location": "project_Stepdefinition.LoginValidationSteps.user_opens_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13548268700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter the url",
+            "match": {
+              "location": "project_Stepdefinition.LoginValidationSteps.user_enter_the_url()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 364983600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user navigates to Registration page",
+            "match": {
+              "location": "project_Stepdefinition.DataTable_SUser_Steps.user_navigates_to_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 28415810100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters the Multiple students details from excel \"ExcelDataMU.xlsx\" and \"data1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ExcelDataMU.xlsx\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"data1\"",
+                  "offset": 76
+                }
+              ],
+              "location": "project_Stepdefinition.Excel_Reg_MU_Steps.user_enters_the_multiple_students_details_from_excel_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 948839800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "browser should get closed",
+            "match": {
+              "location": "project_Stepdefinition.LoginValidationSteps.browser_should_get_closed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Validate Registration form for Multiple users",
+    "description": " This feature will fill the form for some students using data table",
+    "id": "validate-registration-form-for-multiple-users",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/my_Features/Excel_Reg_MU.feature",
+    "tags": []
+  }
+]
